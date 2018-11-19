@@ -1,0 +1,116 @@
+body{
+  color: #525252;
+}
+
+.page {
+  overflow-x: hidden;
+}
+
+.app{
+  padding-top: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+}
+
+.app__input-wrapper{
+  width: 60%;
+}
+
+.app__input-wrapper input{
+  width: 60%;
+}
+
+.app__list{
+  width: 60%;
+  list-style: none;
+}
+
+.app__image{
+  width: 60px;
+}
+
+.app__description{
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.app__description-name{
+  font-size: 20px;
+}
+
+.app__description-year{
+  color: #969696;
+}
+
+.app__list-item{
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  margin-top: 20px;
+  cursor: pointer;
+  min-height: 60px;
+  position: relative;
+}
+
+.app__list-item div+div{
+  margin-top: 5px;
+}
+
+.app__list-item::before{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.app__movie-details{
+  width: 60%;
+}
+
+.app__image--details{
+  width: 160px;
+  float: left;
+  margin: 0 20px 20px 0;
+}
+
+.app__movie-details-content{
+  display: flex;
+  justify-content: flex-start;
+  align-items: start;
+  margin-top: 25px;
+}
+
+.app__description--details{
+  margin-left: 0;
+  width: 100%;
+}
+
+.app__description--details p{
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.app__description-details-list{
+  margin-top: 10px;
+}
+
+.app__description-details-list li{
+  color: #969696;
+  list-style: none;
+  margin-top: 2px;
+  font-size: 14px;
+}
+
+.app__description-details-list span{
+  color: #525252;
+}
+
+.app__description-name--details{
+  font-size: 30px;
+}
