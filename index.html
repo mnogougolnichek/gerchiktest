@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/reset.css">
+    <link rel="stylesheet" href="styles/flexboxgrid.min.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/icon.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/components/input.css">
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+
+    <div class="page">
+
+        <main>
+            <div class="app" id="app">
+                <div class="ui icon input app__input-wrapper">
+                    <input type="text" placeholder="Search..." class="js-app__input">
+                    <i class="search icon"></i>
+                </div>
+                <ul class="js-app__list app__list">
+
+                </ul>
+                <div class="app__movie-details js-app__movie-details"></div>
+            </div>
+        </main>
+
+    </div>
+
+    <script src="scripts/searchMovie.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
